@@ -201,7 +201,7 @@ TextureImporter:
       213: 8550105323253213269
     second: OverWorldTiles_275
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -218,10 +218,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -230,9 +232,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -260,6 +262,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -275,6 +279,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -1684,9 +1700,75 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      OverWorldTiles_183: 8860737975865092844
+      OverWorldTiles_204: -5798030821427394252
+      OverWorldTiles_63: 3100199903721845629
+      OverWorldTiles_201: -7795494941205483845
+      OverWorldTiles_52: -9215685902758485850
+      OverWorldTiles_53: -892752018557542119
+      OverWorldTiles_174: -6146117932822040893
+      OverWorldTiles_123: -8965585585844519706
+      OverWorldTiles_126: 5573725881526526160
+      OverWorldTiles_54: -440816500251856740
+      OverWorldTiles_120: 1382484536964457665
+      OverWorldTiles_104: 6645774739884380372
+      OverWorldTiles_202: -3414023351848151401
+      OverWorldTiles_108: 8948668279964994295
+      OverWorldTiles_61: 5894612479736802208
+      OverWorldTiles_260: -8948610968339248793
+      OverWorldTiles_103: 1304331709031329896
+      OverWorldTiles_158: 5774926031460161910
+      OverWorldTiles_175: 5611974023607262117
+      OverWorldTiles_185: -4110793925435348470
+      OverWorldTiles_62: 6388452294798543115
+      OverWorldTiles_87: 345966604593745427
+      OverWorldTiles_200: -1914386048265759110
+      OverWorldTiles_41: 2112900775044950436
+      OverWorldTiles_59: 3165311230732481063
+      OverWorldTiles_18: -4031598935046055628
+      OverWorldTiles_74: 100195363608540140
+      OverWorldTiles_64: -2016557137612671407
+      OverWorldTiles_91: -5172301422284515913
+      OverWorldTiles_88: -4098693905411749161
+      OverWorldTiles_102: 4471157066906717858
+      OverWorldTiles_275: 8550105323253213269
+      OverWorldTiles_40: 2619226076307494401
+      OverWorldTiles_199: 7238763480125431478
+      OverWorldTiles_106: -4557181334564815349
+      OverWorldTiles_15: -8015502480505778209
+      OverWorldTiles_89: -4878569058547395704
+      OverWorldTiles_160: 3888684275291479812
+      OverWorldTiles_187: -4827537940957354758
+      OverWorldTiles_186: 7900158253980307522
+      OverWorldTiles_20: -6995980709627039240
+      OverWorldTiles_69: -1954159215326045073
+      OverWorldTiles_86: 2230109715666307687
+      OverWorldTiles_216: -8278847416764978855
+      OverWorldTiles_85: 519848542243315146
+      OverWorldTiles_39: 5144360864190236256
+      OverWorldTiles_184: 4271860015495226049
+      OverWorldTiles_203: 3596390817287574194
+      OverWorldTiles_90: -7347482076172336389
+      OverWorldTiles_105: 7065041075734491637
+      OverWorldTiles_19: -9181703715930069879
+      OverWorldTiles_122: 1767659282618787639
+      OverWorldTiles_125: -8954347871443796161
+      OverWorldTiles_217: -7933782829924535557
+      OverWorldTiles_60: -7787056518172682341
+      OverWorldTiles_107: 7185426658130866119
+      OverWorldTiles_218: 7745355364013033461
+      OverWorldTiles_159: 5301917786904642148
+      OverWorldTiles_17: -854607028942007130
+      OverWorldTiles_198: -8628947978199144991
+      OverWorldTiles_16: -4070761396141543983
+      OverWorldTiles_47: 6951470624151392281
+      OverWorldTiles_42: 6496927381738214294
+      OverWorldTiles_124: 2373800289620667350
+      OverWorldTiles_161: 2144482235351154640
+      OverWorldTiles_121: 1822099354932364616
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
